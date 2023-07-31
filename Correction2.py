@@ -45,7 +45,7 @@ def christian_religious_studies_quiz():
         print('Wrong')
 
     answer = input('What is the significance of Easter in Christianity? ')
-    if answer.lower() == 'the resurrection of jesus christ from the dead':
+    if answer.lower() == 'the resurrection':
         print('Correct!')
         score += 1
     else:
@@ -66,14 +66,14 @@ def christian_religious_studies_quiz():
         print('Wrong')
 
     answer = input('How many disciples did Jesus have? ')
-    if answer.lower() == '12 disciples':
+    if answer.lower() == '12':
         print('Correct!')
         score += 1
     else:
         print('Wrong')
 
     answer = input('What is the significance of the Last Supper in Christianity? ')
-    if answer.lower() == 'the last supper is when jesus shared a final meal with his disciples before his crucifixion':
+    if answer.lower() == 'final meal with disciples before his crucifixion':
         print('Correct!')
         score += 1
     else:
